@@ -1,0 +1,53 @@
+/* auth */
+.auth-form-container{
+    width: 180px;
+    height: auto;
+    border: 1px solid #ccc;
+    margin:auto;
+    padding: 15px;
+    box-sizing:border-box;
+    background-color: rgb(184, 208, 212);
+}
+
+.auth-form-container .text-input-label{
+    display:block;
+    margin-bottom: 5px;
+}
+
+.auth-form-container .text-input-label1{
+    font-style: italic;
+    
+}
+
+.auth-form-container .text-input{
+    height: 30px;
+    width: 100%;
+    box-sizing:border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-color: blueviolet;
+    background-color: thistle;
+}
+
+.form-group{
+margin-bottom: 15px;
+}
+
+.submit-button{
+    display:block;
+    width:100%;
+    height: 35px;
+    text-decoration-color: rgb(250, 246, 246);
+    background-color:rgb(139, 88, 221);
+    color:rgb(245, 245, 245);
+    border:0;
+    margin-bottom: 15px;
+
+}
+
+.reset-pass-link{
+    display:block;
+    text-align:center;
+    font-size: 12px;
+
+}
