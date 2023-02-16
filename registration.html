@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაცია</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+
+
+<body>
+    <div class="container-body-container">
+
+            <form action="" method="get">
+                <div class="form-group">
+                    <label class="text-input-label" for="firstName"><b>სახელი:</b></label>
+                    <input class="text-input" type="text" name="firstName" id="firstName"
+                    placeholder="თქვენი სახელი">
+                </div>
+                <div class="form-group">
+                    <label class="text-input-label" for="lastName"><b>გვარი:</b></label>
+                    <input class="text-input" type="text" name="lastName" id="lastName"
+                    placeholder="თქვენი გვარი">
+                </div>
+                    <div class="form-group">
+                    <label class="text-input-label" for="userEmail"><b>ელ-ფოსტა:</b></label>
+                    <input class="text-input" type="email" name="userEmail" id="userEmail"
+                    placeholder="თქვენი ელ-ფოსტა">
+                </div>
+                 <div class="form-group">
+                    <label class="text-input-label" for="birthDate"><b>დაბადების თარიღი:</b></label>
+                    <input class="text-input" type="date" name="birthDate" id="birthDate"
+                    placeholder="თქვენი გვარი">
+                </div>
+                <div class="form-group">
+                    <label class="text-input-label" for="birthDate"><b>დაბადების ადგილი:</b></label>
+                    <select class="locations">
+                    <option>საქართველო</option>
+                    <option>ა.შ.შ.</option>
+                    <option>იტალია</option>
+                    <option>საფრანგეთი</option>
+                    <option>უკრაინა</option>
+                    <option>ესპანეთი</option>
+                </select>
+                </div>
+                <div class="form-group">
+                <div class="sex-container">
+                    <input type="radio" name="sex" id="male">
+                    <label for="male">კაცი</label>
+                </div>
+                <div class="sex-container">
+                    <input type="radio" name="sex" id="famale">
+                    <label for="famale">ქალი</label>
+                </div>
+                </div>
+                <div class="form-group">
+                    <label class="text-input-label" for="pass"><b>პაროლი:</b></label>
+                    <input class="text-input" type="password" name="pass" id="pass" placeholder="***********************************">
+                </div>
+                <div class="form-group">
+                    <label class="text-input-label" for="passReplay"><b>გაიმეორე პაროლი:</b></label>
+                    <input class="text-input" type="password" name="passReplay" id="passReplay" placeholder="***********************************">
+                </div>
+                    <button class="btn btn-primary">რეგისტრაცია</button>
+                <p><a class="btn btn-link" href="./auth.html">ავტორიზაცია</a></p>
+        </form>
+    </div>

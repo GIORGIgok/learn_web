@@ -6,7 +6,9 @@
     margin:auto;
     padding: 15px;
     box-sizing:border-box;
-    background-color: rgb(184, 208, 212);
+    background-color: rgb(226, 244, 247);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:medium;
 }
 
 .auth-form-container .text-input-label{
@@ -16,7 +18,6 @@
 
 .auth-form-container .text-input-label1{
     font-style: italic;
-    
 }
 
 .auth-form-container .text-input{
@@ -26,12 +27,27 @@
     padding-left: 25px;
     padding-right: 25px;
     border-color: blueviolet;
-    background-color: thistle;
+    background-color: rgb(250, 237, 250);
 }
 
 .form-group{
 margin-bottom: 15px;
 }
+
+.reset-pass-link{
+    display:block;
+    color:blueviolet;
+    text-align:center;
+    font-size: 12px;
+    text-decoration:none;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.reset-pass-link:hover{
+    text-decoration:underline;
+}
+
 
 .submit-button{
     display:block;
@@ -42,12 +58,92 @@ margin-bottom: 15px;
     color:rgb(245, 245, 245);
     border:0;
     margin-bottom: 15px;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.registration-link{
+    display:block;
+    color:blueviolet;
+    text-align:center;
+    font-size: 15px;
+    text-decoration:none;
+    margin-top: -10px;
+}
+
+.registration-link:hover{
+    text-decoration:underline;
+}
+
+/* registration page*/
+.container-body-container{
+    width: 207px;
+    height: auto;
+    border: 1px solid #ccc;
+    margin:auto;
+    padding: 15px;
+    box-sizing:border-box;
+    background-color: rgb(226, 244, 247);
+    font-size:medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
-.reset-pass-link{
-    display:block;
-    text-align:center;
-    font-size: 12px;
+.container-body-container .text-input{
+    background-color:rgb(250, 237, 250);
+    border:solid #ccc;
+}
 
+.locations{
+background-color: rgb(207, 205, 241);
+border:1px solid gray;
+}
+
+.sex-container{
+    display:inline-block;
+}
+
+.btn{
+    display:block;
+    font-size: 15px;
+    font-weight: 35px;
+    text-align:center;
+    border-color: (139, 88, 221);
+}
+
+.btn-primary{
+    background-color: blueviolet;
+    border: 0;
+    color: white;
+    text-align: center;
+    margin:auto;
+    cursor:pointer;
+    width:100%;
+    height: 30px;
+}
+
+.btn-link{
+    display:block;
+    text-decoration: none;
+    text-align:center;
+    line-height: auto;
+    color:rgb(139, 88, 221);
+    padding-bottom: 5px;
+}
+
+.btn-link:hover{
+    text-decoration:underline;
+}
+
+.mb-15{
+    margin:15px;
+}
+
+/* reset pass */
+.text-input-reset{
+    display:block;
+    margin-bottom:20px;
+    margin-top:5px;
+    border-color:rgb(254, 255, 203);
+    background-color:rgb(250,237,250);
 }
