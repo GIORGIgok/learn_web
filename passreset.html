@@ -9,17 +9,51 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
+<body>
+    <header class="d-flex">
+        <div class="first-container d-flex">
+            <a href="#">
+                <img class="logo" src="./logo.svg" alt="ლოგო">
+            </a>
+            <nav class="d-flex">
+                <div>
+                    <a href="./index.html">მთავარი</a>
+                    <a href="#">საიტის სესახებ</a>
+                    <a href="#">წესები</a>
+                    <a href="#">კონტაქტი</a>
+                </div>
+                <div>
+                    <a href="./auth.html">ავტორიზაცია</a>
+                    <a href="./reg">რეგისტრაცია</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+        
+        <div class="container body-container">
 
-    <div class="container-body-container">
-        <form action="type" method="get">
-            <div class="form-group">                      
-                <b><label class="text-input-label" for="email">თქვენი ელ-ფოსტის მისამართი:</label></b>
-                <input class="text-input-reset" type="text" name="userName" id="userName"
-                placeholder="ჩაწერეთ თქვენი E-Mail">
-            <button class="btn-primary btn">პაროლის აღდგენა</button></div>
+            <div class="container-reset-pass">
+                <form action="type" method="get">
+                    <div class="form-group">                      
+                        <b><label class="text-input-label" for="email">თქვენი ელ-ფოსტის მისამართი:</label></b>
+                        <input class="text-input-reset" type="text" name="userName" id="userName"
+                        placeholder="ჩაწერეთ თქვენი E-Mail">
+                    <button class="btn-primary btn">პაროლის აღდგენა</button></div>
             
-            <a class="btn-link" href="./registration.html">რეგისტრაცია</a>
+                    <a class="btn-link" href="./registration.html">რეგისტრაცია</a>
+                    </form>
+            </div>        
+        </div>
 
-
+            <footer>
+                <div class="first-container">
+                    <p>
+                    Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.
+                    According to their research, developers said that JavaScript and SQL are the most popular languages across web developers.
+                    </p>
+                </div>
+            </footer>
+        </body>
+</body>
 
 </html>
