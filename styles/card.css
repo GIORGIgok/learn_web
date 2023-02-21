@@ -1,0 +1,78 @@
+.card {
+    flex-grow: 1;
+    box-shadow: 0px 0px 10px 10px rgb(241, 179, 62);
+    outline: 3px solid rgb(104, 104, 104);
+    width: 320px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    background-color: rgb(190, 190, 190);
+    padding: 5px 5px;
+}
+
+.img-container{
+    position: relative;
+}
+
+.img-container .fav-img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.img-container span{
+    text-align-last: right;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    position: inline;
+}
+
+.img-container button{
+    background-color: rgb(19, 19, 19);
+    border-color: coral;
+    padding: 8px 18px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+}
+
+.card-image{
+    width: 100%;
+}
+
+.card h3{
+    background-color: rgb(65, 65, 65);
+    color:white;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+}
+
+.card p{
+    padding-top:15px;
+    color: white;
+    background-color:rgb(133, 133, 133);
+    margin-top: 0;
+    height: 40px;
+    overflow: hidden;
+}
+
+.action-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-container .img{
+    width: 15px;
+}
+
+.img-container .share-img{
+    width: 30px;
+    height: 30px;
+}

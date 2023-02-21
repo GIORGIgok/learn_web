@@ -6,7 +6,7 @@ body{
 
 /* global styles */
 .first-container{
-    width:1200px;
+    width:1024px;
     margin:auto;
 }
 
@@ -226,4 +226,36 @@ border:1px solid gray;
     background-color: rgb(211, 211, 211);
     font-size:medium;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* blog-list page styles */
+
+.main-category-item{
+    outline: 3px dotted coral;
+    flex-grow: 1;
+    text-align: center;
+    padding: 15px 20px;
+    margin:0 15px;
+    width:25%;
+    text-decoration: none;
+    color:black;
+}
+
+.main-category-item:hover{
+    outline:solid;
+    color:chocolate;
+    background-color: #dad8d8;
+}
+
+.main-category-item:first-child{
+    margin: left 0;
+}
+
+.main-category-item:last-child{
+    margin: right 0;
+}
+
+.main-category-item img{
+    width: 40px;
+    height: 40px;
 }
