@@ -10,6 +10,15 @@ body{
     margin:auto;
 }
 
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+    display: block;
+}
+
+
 /* d-flex */
 .d-flex{
 display:flex;
@@ -80,7 +89,7 @@ footer .p{
   }
 
 .body-container{
-    padding:30px 0;
+    padding: 25px;
     min-height:calc(100vh - 70px - 60px);
     box-sizing:border-box;
 }
@@ -227,9 +236,10 @@ border:1px solid gray;
 /* reset pass */
 .text-input-reset{
     display:block;
-    margin-bottom:20px;
-    margin-top:5px;
-    border-color:rgb(254, 255, 203);
+    width: 167px;
+    margin-bottom:15px;
+    margin-top:10px;
+    border-color:rgb(253, 255, 111);
     background-color:rgb(211,211,211);
 }
 
