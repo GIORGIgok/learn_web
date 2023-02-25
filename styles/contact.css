@@ -2,8 +2,25 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap:30px;
-    margin-left: 15%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* first box - kontaqtis forma */
+.contact-box {
+    margin:auto;
+}
+
+/* second box - sakontaqto informacia */
+.contact-info-box{
+    margin:auto;
+    background-color: rgb(250, 237, 250);
+    border: 5px solid rgb(173, 173, 173);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.contact-info-box h2{
+    padding: 0 25px;
 }
 
 .container.contact label {
